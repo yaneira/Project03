@@ -307,11 +307,12 @@
   background-image: linear-gradient(to top, #ff0844 0%, #ffff00 100%);
   background-size: 100%;
   margin-bottom: 5rem;
-  font-size: 2.5rem;
+  font-size: 5rem;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
 }
 .services_container{
   display: flex;
@@ -343,8 +344,9 @@
 }
 .services h2{
   position: absolute;
-  top: 300px;
+  top: 50px;
   left: 30px;
+
 }
 .services_card p{
   position: absolute;
@@ -377,3 +379,59 @@
   }
 }
 /*footer*/
+.footer_container{
+  background-color: #141414;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+}
+.footer_links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer_links--wrapper{
+  display: flex;
+}
+.footer_links--items{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  text-align: left;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer_links--items h2{
+  margin-bottom: 16px;
+}
+.footer_links--items > h2{
+  color: #ffffff;
+}
+.footer_links--items a{
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.footer_links--items a:hover{
+  color: #008000;
+  transition: 0.3s ease-out;
+}
+/*social icons*/
+.social_media{
+  width: 100%;
+}
+.social_media--wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
+.website_right{
+  color:#ffffff;
+  text-align:left;
+}
